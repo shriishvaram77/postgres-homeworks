@@ -4,7 +4,7 @@ CREATE TABLE employees
 	employee_id int PRIMARY KEY NOT NULL,
 	first_name varchar(100) NOT NULL,
 	last_name varchar(100) NOT NULL,
-	title varchar(20) NOT NULL,
+	title varchar(100) NOT NULL,
 	birth_date date NOT NULL,
 	notes text
 );
