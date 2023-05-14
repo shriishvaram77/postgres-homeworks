@@ -10,7 +10,7 @@ CREATE TABLE student
 
 -- 2. Добавить в таблицу student колонку middle_name varchar
 ALTER TABLE student
-ADD COLUMN middle_name
+ADD COLUMN middle_name varchar
 
 -- 3. Удалить колонку middle_name
 ALTER TABLE student
